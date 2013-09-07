@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CUSTOM*/
+.navbar {
+	background-color:rgb(56, 56, 56);
+    display:block;
+    padding:0px 5px 0px 5px;
+    font-weight:500;
+    border: 7px solid #383838;
+}
+.navbar ul li {
+    display:inline-block;
+    font-size:13px;
+    padding:0px 7px 0px 7px;
+    font-family:Arial, san serif;
+    font-weight:bold;
+}
+.navbar ul li a {
+    color:#CECBCB;
+    text-decoration:none;
+}
+.navbar ul li a:hover {
+    color:white;
+}
+
+.sign_in {
+	float: right;
+	position: relative;
+	text-transform: uppercase;
+	background-color: #DA4B39;
+	color: white;
+	padding: 8px 15px;
+	border-radius: 3px;
+	margin: 20px 20px 0px 0px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div a {
+	text-decoration: none;
+	color: white;
+}
+
+.center {
+	margin: 11% auto;
+	width: 600px;
+	clear: both;
+}
+
+.center img {
+	width: 275px;
+	display: block;
+	margin: 163px auto 0px auto;
+}
+
+.search {
+	width: 100%;
+	border: 1px solid #CECBCB;
+	height: 23px;
+}
+
+.buttons {
+	position: relative;
+	margin: 0px auto;
+	padding: 5px 0px;
+	width: 230px;
+	white-space: nowrap;
+}
+
+.buttons button:hover {
+	color: black;
+}
+
+.submit {
+	border: 1px solid #d0d0d0;
+	background-color: #f6f6f6;
+	color: #404040;
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 7px 8px;
+	margin-right: 2px;
+	border-radius: 2px;
+}
+
+footer {
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	float: right;
+	text-align: right;
+	width: 100%;
+	border-top: 1px solid #ebebeb;
+	background-color: #ffffff;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 0px 10px;
+	color: gray;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+}
